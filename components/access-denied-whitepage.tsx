@@ -13,65 +13,65 @@ import {
 import Link from "next/link";
 import ConfettiEffect from "@/components/confetti";
 
-const CHECKOUT_URL = "https://teu_link_de_checkout_aqui";
+const CHECKOUT_URL = "https://go.centerpag.com/PPU38CQ8LDF";
 
 export default function AccessDenied() {
   const features = [
     {
       icon: Zap,
-      title: "Master the Faceless YouTube Automation",
+      title: "Dominate Faceless YouTube Automation",
       description:
-        "Maximize your account's visibility and reach millions of viewers",
+        "Boost your account's visibility and reach millions of viewers",
     },
     {
       icon: Target,
-      title: "Optimize Your YouTube Profile",
+      title: "Perfect Your YouTube Profile",
       description:
-        "Convert viewers into loyal followers with proven strategies",
+        "Turn viewers into loyal subscribers with proven strategies",
     },
     {
       icon: Rocket,
-      title: "Unlimited Content Creation",
+      title: "Non-Stop Content Creation",
       description:
-        "Use Canva to create unlimited Shorts and Videos for YouTube",
+        "Use Canva to produce unlimited Shorts and Videos for YouTube",
     },
     {
       icon: TrendingUp,
-      title: "Stay Ahead of Trends",
+      title: "Always Ahead of Trends",
       description:
-        "Discover trending sounds and concepts that go viral on YouTube",
+        "Spot trending sounds and concepts that go viral on YouTube",
     },
     {
       icon: Sparkles,
-      title: "Viral Content Strategy",
+      title: "Viral Content Formula",
       description:
-        "Create compelling videos that earn thousands of views per video",
+        "Make compelling videos that rack up thousands of views each",
     },
     {
       icon: Shield,
-      title: "Avoid Common Pitfalls",
-      description: "Learn how to avoid penalties and ensure steady growth",
+      title: "Sidestep Common Mistakes",
+      description: "Know how to avoid penalties and keep growing steadily",
     },
   ];
 
   const benefits = [
-    "Master the Faceless YouTube Automation and maximize your account's visibility!",
-    "Optimize your YouTube profile to convert viewers into loyal followers",
-    "How to use Canva to create unlimited Shorts and Videos for YouTube",
-    "Stay up to date with the latest Faceless YouTube Automation trends",
-    "Discover how to find and leverage trending sounds and concepts on YouTube.",
-    "Create compelling videos that go viral on YouTube, earning you thousands of views per video.",
-    "Develop a winning content strategy to become an influential YouTube creator.",
-    "Use Canva to create Instagram branding elements including Profile Photos, Banners and more",
-    "Harness the power of ChatGPT to enhance your YouTube video content and engage your audience.",
-    "Avoid common pitfalls and penalties on Faceless YouTube, ensuring steady growth.",
-    "Unleash growth hacks to land your content on the YouTube Home feed and achieve viral success.",
-    "Unlock insider secrets of YouTube Marketing that industry experts rely on.",
-    "Stay ahead of your competitors using advanced YouTube features and techniques.",
-    "Optimize your YouTube content for search engine visibility through SEO strategies.",
-    "Master the latest YouTube marketing methods to stand out in a crowded space",
-    "Discover valuable tips and tricks to elevate your YouTube Shorts marketing game.",
-    "Learn how to use ChatGPT effectively for content creation",
+    "Dominate Faceless YouTube Automation and skyrocket your account's visibility!",
+    "Perfect your YouTube profile to turn viewers into loyal subscribers",
+    "How to use Canva to produce unlimited Shorts and Videos for YouTube",
+    "Always stay current with the latest Faceless YouTube Automation trends",
+    "Learn how to find and leverage trending sounds and concepts on YouTube.",
+    "Make compelling videos that go viral on YouTube, earning you thousands of views each.",
+    "Build a winning content strategy to become a top YouTube creator in your niche.",
+    "Use Canva to design Instagram branding elements including Profile Photos, Banners and more",
+    "Tap into the power of ChatGPT to boost your YouTube video content and engage your audience.",
+    "Sidestep common mistakes and penalties on Faceless YouTube for steady, reliable growth.",
+    "Apply growth hacks to land your content on the YouTube Home feed and go viral.",
+    "Access insider secrets of YouTube Marketing that top industry experts rely on.",
+    "Stay one step ahead of competitors using advanced YouTube features and techniques.",
+    "Boost your YouTube content's search visibility through proven SEO strategies.",
+    "Apply the latest YouTube marketing methods to stand out in a crowded space",
+    "Pick up valuable tips and tricks to take your YouTube Shorts marketing to the next level.",
+    "Learn how to use ChatGPT as a powerful engine for content creation",
   ];
 
   return (
@@ -123,9 +123,9 @@ export default function AccessDenied() {
               </h1>
 
               <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
-                Master the Faceless YouTube Automation and{" "}
+                Dominate Faceless YouTube Automation and{" "}
                 <span className="text-red-500 font-semibold">
-                  maximize your account&apos;s visibility!
+                  skyrocket your account&apos;s visibility!
                 </span>
               </p>
 
@@ -140,7 +140,7 @@ export default function AccessDenied() {
                   onClick={() => window.open(CHECKOUT_URL, "_blank")}
                   className="group relative inline-flex items-center gap-3 px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-600/50"
                 >
-                  <span>START YOUR JOURNEY</span>
+                  <span>BEGIN YOUR JOURNEY</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
                   <div className="absolute inset-0 rounded-lg bg-red-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity -z-10" />
                 </button>
@@ -247,8 +247,8 @@ export default function AccessDenied() {
                 Ready to <span className="text-red-600">Dominate</span> YouTube?
               </h2>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                Join the Mastermind Faceless Channels program and transform your
-                YouTube presence into a revenue-generating machine.
+                Join the Mastermind Faceless Channels program and turn your
+                YouTube presence into a powerful revenue-generating machine.
               </p>
 
               <div className="pt-8">
@@ -256,7 +256,7 @@ export default function AccessDenied() {
                   onClick={() => window.open(CHECKOUT_URL, "_blank")}
                   className="group relative inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold text-xl rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
                 >
-                  <span>GET STARTED NOW</span>
+                  <span>GET INSTANT ACCESS</span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
                   <div className="absolute inset-0 rounded-lg bg-red-600 blur-2xl opacity-60 group-hover:opacity-80 transition-opacity -z-10" />
                 </button>
