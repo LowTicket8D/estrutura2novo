@@ -9,6 +9,12 @@ import {
   Rocket,
   Shield,
   Sparkles,
+  Play,
+  Mic,
+  Monitor,
+  Palette,
+  Radio,
+  DollarSign,
 } from "lucide-react";
 import Link from "next/link";
 import ConfettiEffect from "@/components/confetti";
@@ -19,59 +25,111 @@ export default function AccessDenied() {
   const features = [
     {
       icon: Zap,
-      title: "Dominate Faceless YouTube Automation",
+      title: "12 Editing Styles Covered",
       description:
-        "Boost your account's visibility and reach millions of viewers",
+        "From AI cinematic B-roll to ambient livestreams — master every faceless format used by top creators in 2026",
     },
     {
       icon: Target,
-      title: "Perfect Your YouTube Profile",
+      title: "CapCut Step-by-Step Workflows",
       description:
-        "Turn viewers into loyal subscribers with proven strategies",
+        "Complete editing walkthroughs with exact settings, keyframe techniques, export configs, and reusable templates",
     },
     {
       icon: Rocket,
-      title: "Non-Stop Content Creation",
+      title: "AI-Powered Production Pipeline",
       description:
-        "Use Canva to produce unlimited Shorts and Videos for YouTube",
+        "Leverage Sora 2, Kling, ElevenLabs, HeyGen, and Novi AI to produce professional videos in minutes, not days",
     },
     {
       icon: TrendingUp,
-      title: "Always Ahead of Trends",
+      title: "High-CPM Niche Strategies",
       description:
-        "Spot trending sounds and concepts that go viral on YouTube",
+        "Target finance, tech, and education niches where faceless channels earn $15-50 RPM with proven formats",
     },
     {
       icon: Sparkles,
-      title: "Viral Content Formula",
+      title: "Shorts & Long-Form Mastery",
       description:
-        "Make compelling videos that rack up thousands of views each",
+        "Dominate both YouTube Shorts and 10+ minute videos with format-specific editing techniques and hooks",
     },
     {
       icon: Shield,
-      title: "Sidestep Common Mistakes",
-      description: "Know how to avoid penalties and keep growing steadily",
+      title: "Monetization & Scaling Playbook",
+      description:
+        "Five revenue streams, YouTube SEO tactics, and automation workflows to run multiple channels simultaneously",
+    },
+  ];
+
+  const modules = [
+    {
+      icon: Play,
+      number: "01",
+      title: "Welcome Guide & CapCut Setup",
+      description:
+        "Understand the faceless landscape, configure your CapCut workspace, and get the overview of all 12 editing styles",
+    },
+    {
+      icon: Sparkles,
+      number: "02",
+      title: "AI-Powered Visuals",
+      description:
+        "Master AI Cinematic B-Roll with Sora 2 & Kling, AI Avatar presenters with HeyGen, and Story-to-Video animated storytelling with Novi AI",
+    },
+    {
+      icon: Mic,
+      number: "03",
+      title: "Narration & Voiceover Styles",
+      description:
+        "Build polished Stock Footage Documentaries and create viral AI Podcast / Dual Voice content with ElevenLabs integration",
+    },
+    {
+      icon: Monitor,
+      number: "04",
+      title: "Screen & Text-Based Formats",
+      description:
+        "Produce Screen Recording Tutorials, Reddit Stories with Gameplay backgrounds, and Text-on-Screen viral Shorts that stop the scroll",
+    },
+    {
+      icon: Palette,
+      number: "05",
+      title: "Animation & Motion",
+      description:
+        "Create high-CPM Motion Graphics and Infographic Animations with CapCut keyframes, plus Whiteboard hand-drawn videos with VideoScribe",
+    },
+    {
+      icon: Radio,
+      number: "06",
+      title: "Ambient & Automated Content",
+      description:
+        "Set up passive-income Lofi/Ambient 24/7 livestreams and fully automated AI News Aggregation channels with n8n pipelines",
+    },
+    {
+      icon: DollarSign,
+      number: "07",
+      title: "Monetization & AI Toolkit",
+      description:
+        "YouTube SEO for faceless channels, five proven revenue streams, the complete 2026 AI tool stack with pricing, and recommended starter budgets",
     },
   ];
 
   const benefits = [
-    "Dominate Faceless YouTube Automation and skyrocket your account's visibility!",
-    "Perfect your YouTube profile to turn viewers into loyal subscribers",
-    "How to use Canva to produce unlimited Shorts and Videos for YouTube",
-    "Always stay current with the latest Faceless YouTube Automation trends",
-    "Learn how to find and leverage trending sounds and concepts on YouTube.",
-    "Make compelling videos that go viral on YouTube, earning you thousands of views each.",
-    "Build a winning content strategy to become a top YouTube creator in your niche.",
-    "Use Canva to design Instagram branding elements including Profile Photos, Banners and more",
-    "Tap into the power of ChatGPT to boost your YouTube video content and engage your audience.",
-    "Sidestep common mistakes and penalties on Faceless YouTube for steady, reliable growth.",
-    "Apply growth hacks to land your content on the YouTube Home feed and go viral.",
-    "Access insider secrets of YouTube Marketing that top industry experts rely on.",
-    "Stay one step ahead of competitors using advanced YouTube features and techniques.",
-    "Boost your YouTube content's search visibility through proven SEO strategies.",
-    "Apply the latest YouTube marketing methods to stand out in a crowded space",
-    "Pick up valuable tips and tricks to take your YouTube Shorts marketing to the next level.",
-    "Learn how to use ChatGPT as a powerful engine for content creation",
+    "Master 12 different faceless video editing styles — each with a complete CapCut workflow from timeline to export",
+    "Generate cinematic AI B-roll using Sora 2, Kling 2.6, and Veo 3 — footage that no one else has because it never existed before",
+    "Create photorealistic AI avatar presenters with perfect lip-sync using HeyGen and Synthesia — no camera needed",
+    "Build animated storytelling videos with consistent characters using Novi AI's Story-to-Video in any visual style",
+    "Produce documentary-grade content by combining stock footage with professional AI voiceovers from ElevenLabs",
+    "Launch an AI Podcast channel with dual-voice narration — the fastest-growing faceless format in 2026",
+    "Edit screen recording tutorials with dynamic zooms, auto-highlights, and professional captions in CapCut",
+    "Create Reddit story videos with gameplay backgrounds optimized for maximum Shorts retention",
+    "Design scroll-stopping text-on-screen Shorts with viral hooks, sound design, and CapCut animations",
+    "Build high-CPM motion graphics and infographic animations using CapCut keyframes and Canva assets",
+    "Set up 24/7 lofi ambient livestreams that generate passive ad revenue while you sleep",
+    "Automate entire news digest channels using n8n workflows — from RSS feed to published YouTube video",
+    "Apply proven YouTube SEO strategies specifically optimized for faceless channels without personal branding",
+    "Access the complete 2026 AI toolkit: 25+ tools organized by function with pricing and starter stack recommendations",
+    "Build reusable CapCut templates for each editing style — cutting your production time by 40% per video",
+    "Implement five distinct monetization paths: AdSense, affiliate marketing, sponsorships, digital products, and channel flipping",
   ];
 
   return (
@@ -81,15 +139,15 @@ export default function AccessDenied() {
         <div
           className="absolute inset-0"
           style={{
-            backgroundImage: `linear-gradient(rgba(255,0,0,0.1) 1px, transparent 1px),
-                            linear-gradient(90deg, rgba(255,0,0,0.1) 1px, transparent 1px)`,
+            backgroundImage: `linear-gradient(rgba(123,47,190,0.1) 1px, transparent 1px),
+                            linear-gradient(90deg, rgba(123,47,190,0.1) 1px, transparent 1px)`,
             backgroundSize: "50px 50px",
           }}
         />
       </div>
 
-      {/* Red accent line (top of page) */}
-      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-600 to-transparent pointer-events-none" />
+      {/* Accent line (top of page) */}
+      <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-purple-600 to-transparent pointer-events-none" />
 
       <main className="relative z-10 w-full">
         {/* HERO SECTION */}
@@ -106,27 +164,28 @@ export default function AccessDenied() {
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
-                className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-red-600/50 bg-red-600/10 backdrop-blur-sm"
+                className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-purple-600/50 bg-purple-600/10 backdrop-blur-sm"
               >
-                <span className="h-2 w-2 rounded-full bg-red-600 animate-pulse" />
-                <span className="text-sm font-medium text-red-400">
-                  MASTERMIND PROGRAM
+                <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
+                <span className="text-sm font-medium text-purple-300">
+                  COMPLETE COURSE — 7 MODULES • 12 EDITING STYLES
                 </span>
               </motion.div>
 
               <h1 className="text-5xl md:text-7xl font-black tracking-tight">
-                <span className="bg-gradient-to-r from-white via-red-500 to-white bg-clip-text text-transparent">
-                  MASTERMIND
+                <span className="bg-gradient-to-r from-white via-purple-400 to-cyan-400 bg-clip-text text-transparent">
+                  FACELESS YOUTUBE
                 </span>
                 <br />
-                <span className="text-white">FACELESS CHANNELS</span>
+                <span className="text-white">MASTERY</span>
               </h1>
 
               <p className="text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light leading-relaxed">
-                Dominate Faceless YouTube Automation and{" "}
-                <span className="text-red-500 font-semibold">
-                  skyrocket your account&apos;s visibility!
-                </span>
+                The complete CapCut editing course for building and monetizing{" "}
+                <span className="text-cyan-400 font-semibold">
+                  faceless YouTube channels
+                </span>{" "}
+                using AI tools in 2026
               </p>
 
               {/* CTA Button */}
@@ -138,19 +197,29 @@ export default function AccessDenied() {
               >
                 <button
                   onClick={() => window.open(CHECKOUT_URL, "_blank")}
-                  className="group relative inline-flex items-center gap-3 px-8 py-4 bg-red-600 hover:bg-red-700 text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-red-600/50"
+                  className="group relative inline-flex items-center gap-3 px-8 py-4 bg-purple-600 hover:bg-purple-700 text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 shadow-lg shadow-purple-600/50"
                 >
-                  <span>BEGIN YOUR JOURNEY</span>
+                  <span>GET INSTANT ACCESS</span>
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-                  <div className="absolute inset-0 rounded-lg bg-red-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity -z-10" />
+                  <div className="absolute inset-0 rounded-lg bg-purple-600 blur-xl opacity-50 group-hover:opacity-75 transition-opacity -z-10" />
                 </button>
               </motion.div>
+
+              {/* Social proof */}
+              <motion.p
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.6 }}
+                className="text-sm text-gray-500"
+              >
+                No camera • No face • No experience needed — just CapCut, AI tools, and this system
+              </motion.p>
             </motion.div>
           </div>
         </section>
 
         {/* FEATURES GRID */}
-        <section className="relative z-10 w-full py-20 border-t border-red-600/20">
+        <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
           <div className="max-w-7xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0 }}
@@ -159,10 +228,11 @@ export default function AccessDenied() {
               className="text-center mb-16"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                What You&apos;ll <span className="text-red-600">Master</span>
+                What You&apos;ll{" "}
+                <span className="text-purple-500">Master</span>
               </h2>
               <p className="text-gray-400 text-lg">
-                Everything you need to dominate YouTube
+                Everything you need to build profitable faceless channels
               </p>
             </motion.div>
 
@@ -176,12 +246,12 @@ export default function AccessDenied() {
                     whileInView={{ opacity: 1, y: 0 }}
                     viewport={{ once: true }}
                     transition={{ delay: index * 0.1 }}
-                    className="group relative p-6 rounded-xl border border-gray-800 bg-gradient-to-br from-gray-900/50 to-black hover:border-red-600/50 transition-all duration-300"
+                    className="group relative p-6 rounded-xl border border-gray-800 bg-gradient-to-br from-gray-900/50 to-black hover:border-purple-600/50 transition-all duration-300"
                   >
-                    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-red-600/0 to-red-600/0 group-hover:from-red-600/10 group-hover:to-red-600/5 transition-all duration-300" />
+                    <div className="absolute inset-0 rounded-xl bg-gradient-to-br from-purple-600/0 to-cyan-600/0 group-hover:from-purple-600/10 group-hover:to-cyan-600/5 transition-all duration-300" />
                     <div className="relative z-10">
-                      <div className="inline-flex p-3 rounded-lg bg-red-600/20 border border-red-600/30 mb-4">
-                        <Icon className="w-6 h-6 text-red-500" />
+                      <div className="inline-flex p-3 rounded-lg bg-purple-600/20 border border-purple-600/30 mb-4">
+                        <Icon className="w-6 h-6 text-cyan-400" />
                       </div>
                       <h3 className="text-xl font-bold mb-2 text-white">
                         {feature.title}
@@ -197,8 +267,8 @@ export default function AccessDenied() {
           </div>
         </section>
 
-        {/* BENEFITS LIST */}
-        <section className="relative z-10 w-full py-20 border-t border-red-600/20">
+        {/* MODULES SECTION */}
+        <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
           <div className="max-w-6xl mx-auto px-6">
             <motion.div
               initial={{ opacity: 0 }}
@@ -207,10 +277,64 @@ export default function AccessDenied() {
               className="text-center mb-16"
             >
               <h2 className="text-4xl md:text-5xl font-bold mb-4">
-                Complete <span className="text-red-600">Learning Path</span>
+                Course{" "}
+                <span className="text-cyan-400">Modules</span>
               </h2>
               <p className="text-gray-400 text-lg">
-                Everything included in the Mastermind
+                7 comprehensive modules — each one independent and actionable
+              </p>
+            </motion.div>
+
+            <div className="space-y-4">
+              {modules.map((module, index) => {
+                const Icon = module.icon;
+                return (
+                  <motion.div
+                    key={index}
+                    initial={{ opacity: 0, x: -30 }}
+                    whileInView={{ opacity: 1, x: 0 }}
+                    viewport={{ once: true }}
+                    transition={{ delay: index * 0.08 }}
+                    className="group relative flex items-start gap-5 p-5 rounded-xl border border-gray-800 bg-gradient-to-r from-gray-900/50 to-black hover:border-purple-600/40 transition-all duration-300"
+                  >
+                    <div className="flex-shrink-0 w-14 h-14 rounded-lg bg-gradient-to-br from-purple-600/30 to-cyan-600/20 border border-purple-600/30 flex items-center justify-center">
+                      <span className="text-lg font-black text-cyan-400">
+                        {module.number}
+                      </span>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex items-center gap-2 mb-1">
+                        <Icon className="w-4 h-4 text-purple-400" />
+                        <h3 className="text-lg font-bold text-white">
+                          {module.title}
+                        </h3>
+                      </div>
+                      <p className="text-gray-400 leading-relaxed text-sm">
+                        {module.description}
+                      </p>
+                    </div>
+                  </motion.div>
+                );
+              })}
+            </div>
+          </div>
+        </section>
+
+        {/* BENEFITS LIST */}
+        <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
+          <div className="max-w-6xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              className="text-center mb-16"
+            >
+              <h2 className="text-4xl md:text-5xl font-bold mb-4">
+                Everything You&apos;ll{" "}
+                <span className="text-purple-500">Learn</span>
+              </h2>
+              <p className="text-gray-400 text-lg">
+                16 actionable skills included in the course
               </p>
             </motion.div>
 
@@ -221,13 +345,15 @@ export default function AccessDenied() {
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
                   viewport={{ once: true }}
-                  transition={{ delay: index * 0.05 }}
-                  className="flex items-start gap-4 p-4 rounded-lg border border-gray-800 bg-gray-900/30 hover:border-red-600/50 hover:bg-gray-900/50 transition-all duration-300"
+                  transition={{ delay: index * 0.04 }}
+                  className="flex items-start gap-4 p-4 rounded-lg border border-gray-800 bg-gray-900/30 hover:border-purple-600/50 hover:bg-gray-900/50 transition-all duration-300"
                 >
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-red-600 flex items-center justify-center mt-0.5">
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-gradient-to-br from-purple-600 to-cyan-500 flex items-center justify-center mt-0.5">
                     <div className="w-2 h-2 rounded-full bg-white" />
                   </div>
-                  <p className="text-gray-300 leading-relaxed">{benefit}</p>
+                  <p className="text-gray-300 leading-relaxed text-sm">
+                    {benefit}
+                  </p>
                 </motion.div>
               ))}
             </div>
@@ -235,7 +361,7 @@ export default function AccessDenied() {
         </section>
 
         {/* FINAL CTA */}
-        <section className="relative z-10 w-full py-20 border-t border-red-600/20">
+        <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
           <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
@@ -244,26 +370,31 @@ export default function AccessDenied() {
               className="space-y-6"
             >
               <h2 className="text-4xl md:text-6xl font-black">
-                Ready to <span className="text-red-600">Dominate</span> YouTube?
+                Ready to Build Your{" "}
+                <span className="bg-gradient-to-r from-purple-500 to-cyan-400 bg-clip-text text-transparent">
+                  Faceless Empire
+                </span>
+                ?
               </h2>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
-                Join the Mastermind Faceless Channels program and turn your
-                YouTube presence into a powerful revenue-generating machine.
+                Get all 7 modules, 12 editing styles, complete CapCut workflows,
+                and the full AI toolkit — everything you need to launch your
+                first faceless channel today.
               </p>
 
               <div className="pt-8">
                 <button
                   onClick={() => window.open(CHECKOUT_URL, "_blank")}
-                  className="group relative inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-red-600 to-red-700 hover:from-red-700 hover:to-red-800 text-white font-bold text-xl rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-red-600/50"
+                  className="group relative inline-flex items-center gap-3 px-10 py-5 bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white font-bold text-xl rounded-lg transition-all duration-300 transform hover:scale-105 shadow-2xl shadow-purple-600/50"
                 >
                   <span>GET INSTANT ACCESS</span>
                   <ArrowRight className="w-6 h-6 group-hover:translate-x-2 transition-transform" />
-                  <div className="absolute inset-0 rounded-lg bg-red-600 blur-2xl opacity-60 group-hover:opacity-80 transition-opacity -z-10" />
+                  <div className="absolute inset-0 rounded-lg bg-purple-600 blur-2xl opacity-60 group-hover:opacity-80 transition-opacity -z-10" />
                 </button>
               </div>
 
               <p className="text-sm text-gray-500 pt-4">
-                Limited spots available • Join thousands of successful creators
+                Instant download • Lifetime access • All future updates included
               </p>
             </motion.div>
           </div>
@@ -276,8 +407,8 @@ export default function AccessDenied() {
         className="relative z-10 w-full py-8 px-4"
         style={{ backgroundColor: "#0A0A0A" }}
       >
-        {/* Red divider line (footer boundary) */}
-        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-red-600 to-transparent pointer-events-none" />
+        {/* Purple divider line (footer boundary) */}
+        <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-purple-600 to-transparent pointer-events-none" />
         <div className="max-w-3xl mx-auto text-center space-y-4">
           <nav className="flex flex-wrap justify-center gap-x-4 gap-y-1 text-sm text-white/70">
             <Link
@@ -324,12 +455,12 @@ export default function AccessDenied() {
             </Link>
           </nav>
           <p className="text-xs text-white/50">
-            © 2025 by All rights reserved.
+            © 2025 Faceless YouTube Mastery. All rights reserved.
             <br />
             <br />
-            This site has no affiliation with Hotmart or Hotmart Company. It is
-            also neither sponsored nor endorsed by Hotmart in any way. HOTMART
-            is a registered trademark of Hotmart Company.
+            This site is not a part of YouTube, Google, or Alphabet Inc.
+            Additionally, this site is not endorsed by YouTube in any way.
+            YOUTUBE is a trademark of Alphabet Inc.
           </p>
         </div>
       </footer>
