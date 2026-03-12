@@ -1,5 +1,6 @@
 import Progress from "@/components/progress";
-import HotmartUpsell from "@/components/hotmart-upsell";
+import PerfectPayUpsell from "@/components/perfectpay-upsell";
+import { UPSELL_1_CHECKOUT_URL } from "@/libs/checkout-links";
 
 export default function Black() {
 
@@ -23,7 +24,7 @@ export default function Black() {
           <div className="font-bold">
             This offer will only be available on this page, don&apos;t miss this unique opportunity!
           </div>
-          <HotmartUpsell black={true} />
+          <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="Não quero, continuar para a próxima etapa" black={true} />
         </div>
       </div>
     </>

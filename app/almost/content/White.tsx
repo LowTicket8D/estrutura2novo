@@ -3,7 +3,8 @@
 import { motion } from "framer-motion";
 import { CheckCircle2, Zap, Shield, TrendingUp } from "lucide-react";
 import Progress from "@/components/progress";
-import HotmartUpsell from "@/components/hotmart-upsell";
+import PerfectPayUpsell from "@/components/perfectpay-upsell";
+import { UPSELL_1_CHECKOUT_URL } from "@/libs/checkout-links";
 
 export default function White() {
   const benefits = [
@@ -84,7 +85,7 @@ export default function White() {
               {/* Main Offer Text */}
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-lg">
-                  Upgrade to <span className="text-red-500 font-semibold">Faceless Channels - Lifetime Access</span> right now and eliminate all recurring fees. For a single, one-time investment, you unlock:
+                  Upgrade to <span className="text-red-500 font-semibold">Rewards Apps - Lifetime Access</span> right now and eliminate all recurring fees. For a single, one-time investment, you unlock:
                 </p>
 
                 {/* Benefits List */}
@@ -108,14 +109,14 @@ export default function White() {
                 </p>
               </div>
 
-              {/* Hotmart Upsell Component */}
-              <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: 0.7 }}
-                className="pt-4"
-              >
-                <HotmartUpsell black={false} />
+              {/* Perfect Pay Upsell - 1ª oferta */}
+                <motion.div
+                  initial={{ opacity: 0, y: 20 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ delay: 0.7 }}
+                  className="pt-4"
+                >
+                <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="Não quero, continuar para a próxima etapa" black={false} />
               </motion.div>
 
               {/* Trust Indicators */}

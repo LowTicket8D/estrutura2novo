@@ -14,8 +14,8 @@ const redHatDisplay = Red_Hat_Display({
 });
 
 export const metadata: Metadata = {
-  title: "Discover the Faceless Channels",
-  description: "Discover the Faceless Channels...",
+  title: "Discover the Rewards Apps",
+  description: "Discover the Rewards Apps...",
 };
 
 export default async function Layout({
