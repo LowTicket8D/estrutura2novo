@@ -15,6 +15,7 @@ import {
   Palette,
   Radio,
   DollarSign,
+  BarChart3,
 } from "lucide-react";
 import Link from "next/link";
 import ConfettiEffect from "@/components/confetti";
@@ -111,6 +112,13 @@ export default function AccessDenied() {
       description:
         "YouTube SEO for faceless channels, five proven revenue streams, the complete 2026 AI tool stack with pricing, and recommended starter budgets",
     },
+    {
+      icon: BarChart3,
+      number: "★",
+      title: "Live Trend Tracker Platform",
+      description:
+        "Exclusive access to our live dashboard updated every 3 days — see which niches, topics, and video ideas are going viral right now so you always know what to create next",
+    },
   ];
 
   const benefits = [
@@ -168,7 +176,7 @@ export default function AccessDenied() {
               >
                 <span className="h-2 w-2 rounded-full bg-cyan-400 animate-pulse" />
                 <span className="text-sm font-medium text-purple-300">
-                  COMPLETE COURSE — 7 MODULES • 12 EDITING STYLES
+                  COMPLETE COURSE — 7 MODULES • 12 EDITING STYLES • LIVE TREND TRACKER
                 </span>
               </motion.div>
 
@@ -185,7 +193,8 @@ export default function AccessDenied() {
                 <span className="text-cyan-400 font-semibold">
                   faceless YouTube channels
                 </span>{" "}
-                using AI tools in 2026
+                using AI tools in 2026 — plus a live trend tracker so you always
+                know what video to make next
               </p>
 
               {/* CTA Button */}
@@ -281,7 +290,7 @@ export default function AccessDenied() {
                 <span className="text-cyan-400">Modules</span>
               </h2>
               <p className="text-gray-400 text-lg">
-                7 comprehensive modules — each one independent and actionable
+                7 comprehensive modules + live trend tracker — each one independent and actionable
               </p>
             </motion.div>
 
@@ -360,6 +369,102 @@ export default function AccessDenied() {
           </div>
         </section>
 
+        {/* LIVE TREND TRACKER PLATFORM */}
+        <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
+          <div className="max-w-5xl mx-auto px-6">
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              className="relative rounded-2xl border border-cyan-500/30 bg-gradient-to-br from-purple-900/20 via-black to-cyan-900/20 overflow-hidden"
+            >
+              {/* Glow effect */}
+              <div className="absolute top-0 left-1/2 -translate-x-1/2 w-64 h-64 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none" />
+
+              <div className="relative z-10 p-8 md:p-12 space-y-8">
+                {/* Badge */}
+                <div className="flex justify-center">
+                  <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-cyan-400/40 bg-cyan-400/10">
+                    <span className="h-2 w-2 rounded-full bg-green-400 animate-pulse" />
+                    <span className="text-sm font-bold text-cyan-300 tracking-wide">
+                      EXCLUSIVE BONUS — INCLUDED WITH YOUR ACCESS
+                    </span>
+                  </div>
+                </div>
+
+                <div className="text-center space-y-4">
+                  <h2 className="text-3xl md:text-5xl font-black">
+                    <span className="text-white">Live </span>
+                    <span className="bg-gradient-to-r from-cyan-400 to-purple-400 bg-clip-text text-transparent">
+                      Trend Tracker
+                    </span>
+                    <span className="text-white"> Platform</span>
+                  </h2>
+                  <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed">
+                    Stop guessing what to make videos about. Get access to our exclusive
+                    live dashboard that shows you exactly{" "}
+                    <span className="text-cyan-400 font-semibold">
+                      which niches, topics, and video ideas are going viral right now
+                    </span>{" "}
+                    — updated every 3 days with fresh data.
+                  </p>
+                </div>
+
+                {/* Platform features grid */}
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+                  {[
+                    {
+                      icon: "📊",
+                      title: "Trending Niches",
+                      desc: "See which faceless niches are growing fastest right now — ranked by view velocity, subscriber growth, and competition level",
+                    },
+                    {
+                      icon: "🔥",
+                      title: "Viral Topics & Ideas",
+                      desc: "Curated list of specific video topics that are gaining traction across YouTube — ready for you to produce in CapCut",
+                    },
+                    {
+                      icon: "🔄",
+                      title: "Updated Every 3 Days",
+                      desc: "Fresh data delivered constantly so you always know what to create next — never waste time on dead topics again",
+                    },
+                  ].map((item, index) => (
+                    <motion.div
+                      key={index}
+                      initial={{ opacity: 0, y: 10 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      viewport={{ once: true }}
+                      transition={{ delay: 0.2 + index * 0.1 }}
+                      className="p-5 rounded-xl border border-gray-700/50 bg-black/40 text-center space-y-3"
+                    >
+                      <div className="text-3xl">{item.icon}</div>
+                      <h3 className="text-white font-bold">{item.title}</h3>
+                      <p className="text-gray-400 text-sm leading-relaxed">
+                        {item.desc}
+                      </p>
+                    </motion.div>
+                  ))}
+                </div>
+
+                {/* Highlight bar */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  whileInView={{ opacity: 1 }}
+                  viewport={{ once: true }}
+                  transition={{ delay: 0.5 }}
+                  className="flex justify-center pt-4"
+                >
+                  <div className="inline-flex items-center gap-3 px-6 py-3 rounded-full border border-purple-500/30 bg-purple-500/10">
+                    <span className="text-purple-300 text-sm font-medium">
+                      Know exactly what video to make → Open CapCut → Follow the course workflow → Publish → Profit
+                    </span>
+                  </div>
+                </motion.div>
+              </div>
+            </motion.div>
+          </div>
+        </section>
+
         {/* FINAL CTA */}
         <section className="relative z-10 w-full py-20 border-t border-purple-600/20">
           <div className="max-w-4xl mx-auto px-6 text-center space-y-8">
@@ -378,8 +483,9 @@ export default function AccessDenied() {
               </h2>
               <p className="text-xl text-gray-400 max-w-2xl mx-auto">
                 Get all 7 modules, 12 editing styles, complete CapCut workflows,
-                and the full AI toolkit — everything you need to launch your
-                first faceless channel today.
+                the full AI toolkit, and lifetime access to the Live Trend Tracker
+                platform — everything you need to launch and scale your faceless
+                channels starting today.
               </p>
 
               <div className="pt-8">
