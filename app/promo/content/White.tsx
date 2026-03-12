@@ -8,7 +8,7 @@ import Progress from "@/components/progress";
 import Button from "@/components/button";
 import { CheckCheck, Loader2 } from "lucide-react";
 
-const CHECKOUT_LINK = "https://teu_link_de_checkout_aqui"; // ou use promoLink do useLayer()
+const CHECKOUT_LINK = "https://go.centerpag.com/PPU38CQ8LDF?ppc=PPCP43DL3Q4D";
 
 export default function White() {
   const { promoLink } = useLayer();
@@ -21,9 +21,9 @@ export default function White() {
   };
 
   const benefits = [
-    "Permanent Entry: All current modules and every future update at no extra cost.",
-    "Priority Support: Ongoing access to our community and mentorship updates.",
-    "Inflation Proof: Lock in today's price and protect yourself from future subscription hikes."
+    "Permanent Access: All current modules and every future update included at no additional cost.",
+    "Priority Support: Continuous access to our community and ongoing mentorship updates.",
+    "Price Locked Forever: Secure today's rate and shield yourself from future price increases."
   ];
 
   return (
@@ -47,7 +47,7 @@ export default function White() {
       <div className="relative z-10 w-full bg-red-600 text-white">
         <div className="mx-auto px-4 sm:px-6 py-4 font-medium">
           <div className="text-sm font-semibold text-center">
-            Please do not close or refresh this page, we have a limited time offer!
+            Please do not close or refresh this page — we have a special limited time offer for you!
           </div>
         </div>
       </div>
@@ -65,7 +65,7 @@ export default function White() {
             ) : (
               <CheckCheck className="size-5" />
             )}
-            <span>I WANT TO ENJOY IT!</span>
+            <span>YES, I WANT THIS!</span>
           </Button>
         </a>
       </div>
@@ -78,7 +78,7 @@ export default function White() {
           animate={{ opacity: 1, y: 0 }}
           className="flex flex-col items-center gap-3 text-center w-full"
         >
-          <span className="text-sm italic text-gray-400">We are processing your fee payment…</span>
+          <span className="text-sm italic text-gray-400">We are processing your payment…</span>
           <Progress progress={67} />
         </motion.div>
 
@@ -112,14 +112,14 @@ export default function White() {
                 </h2>
 
                 <p className="text-xl md:text-2xl text-gray-300 font-light">
-                  Stop worrying about monthly bills forever.
+                  Never worry about monthly fees again.
                 </p>
               </div>
 
               {/* Main Offer Text */}
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-lg">
-                  Upgrade to <span className="text-red-500 font-semibold">Faceless Channels - Lifetime Access</span> right now and eliminate all recurring fees. For a single, one-time investment, you unlock:
+                  Upgrade to <span className="text-red-500 font-semibold">Faceless Channels - Lifetime Access</span> right now and cut all recurring fees for good. With a single one-time investment, you unlock:
                 </p>
 
                 {/* Benefits List */}
@@ -139,7 +139,7 @@ export default function White() {
                 </div>
 
                 <p className="text-lg font-medium text-white pt-2">
-                  Secure your spot for life and focus entirely on your growth.
+                  Lock in your spot for life and put all your energy into growing.
                 </p>
               </div>
 
