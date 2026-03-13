@@ -85,7 +85,7 @@ export default function White() {
               {/* Main Offer Text */}
               <div className="space-y-4 text-gray-300 leading-relaxed">
                 <p className="text-lg">
-                  Upgrade to <span className="text-red-500 font-semibold">Rewards Apps - Lifetime Access</span> right now and eliminate all recurring fees. For a single, one-time investment, you unlock:
+                  Upgrade to <span className="text-red-500 font-semibold">Faceless Channels - Lifetime Access</span> right now and eliminate all recurring fees. For a single, one-time investment, you unlock:
                 </p>
 
                 {/* Benefits List */}
