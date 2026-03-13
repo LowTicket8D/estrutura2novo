@@ -24,7 +24,7 @@ export default function Black() {
           <div className="font-bold">
             This offer will only be available on this page, don&apos;t miss this unique opportunity!
           </div>
-          <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="Não quero, continuar para a próxima etapa" black={true} />
+          <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="No thanks, continue to the next step" black={true} />
         </div>
       </div>
     </>

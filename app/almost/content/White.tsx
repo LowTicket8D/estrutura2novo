@@ -116,7 +116,7 @@ export default function White() {
                   transition={{ delay: 0.7 }}
                   className="pt-4"
                 >
-                <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="Não quero, continuar para a próxima etapa" black={false} />
+                <PerfectPayUpsell upsellCheckoutUrl={UPSELL_1_CHECKOUT_URL} skipUrl="/ready" skipLabel="No thanks, continue to the next step" black={false} />
               </motion.div>
 
               {/* Trust Indicators */}

@@ -19,9 +19,9 @@ type Props = {
 export default function PerfectPayUpsell({
   black = false,
   upsellCheckoutUrl,
-  ctaText = "Sim, quero garantir o acesso vitalício",
+  ctaText = "Yes, I want lifetime access",
   skipUrl,
-  skipLabel = "Não quero, continuar",
+  skipLabel = "No thanks, continue",
 }: Props) {
   const upsellClassName = black ? `${upsellClass} ${blackClass}` : upsellClass;
 
@@ -30,10 +30,10 @@ export default function PerfectPayUpsell({
       {black && (
         <>
           <div className="flex top-0 w-full justify-center items-end absolute text-center px-5 pt-5 pb-3 z-50 text-gray-950 bg-[#F7F9FA]">
-            <span className="text-xs font-semibold uppercase">¡Toca el botón para recibir ahora! 👇</span>
+            <span className="text-xs font-semibold uppercase">Tap the button to get it now! 👇</span>
           </div>
           <div className="flex bottom-0 w-full justify-center items-start absolute text-center px-5 pt-3 pb-5 z-50 text-gray-950 bg-[#F7F9FA]">
-            <span className="text-xs font-semibold uppercase">¡Estamos ansiosos por comenzar! 🎉</span>
+            <span className="text-xs font-semibold uppercase">We can&apos;t wait to get started! 🎉</span>
           </div>
         </>
       )}
