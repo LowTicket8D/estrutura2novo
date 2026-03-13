@@ -19,7 +19,7 @@ export default function Black() {
           <p>You will receive an email with the title: <br /><strong>&quot;Your access has been released&quot;</strong>.</p>
           <p>Don&apos;t forget to check your spam or junk folder, some emails may end up there by error.</p>
           <p>If you have any questions or difficulties accessing, <u>send an email to our support</u>:</p>
-          <p> - <strong className="text-green-500 hover:underline"><Link href="mailto:support@user-rewards-apps.com">ayuda@ayudarewards.com</Link></strong></p>
+          <p> - <strong className="text-green-500 hover:underline"><Link href="mailto:support@user-rewards-apps.com">support@user-rewards-apps.com</Link></strong></p>
           <p>We will respond immediately and help you with everything you need.</p>
           <p>A strong hug, see you on the platform to start studying!</p>
           <div className="flex flex-col gap-4 rounded-2xl border-2 border-dashed text-sm text-center mt-4 p-6 bg-green-50 border-green-500">
