@@ -15,7 +15,7 @@ function withUpsellParam(url: string) {
 }
 
 /** Link de checkout do 1º upsell (One Click). Use em /almost. Cole aqui o link que a Perfect Pay gera. */
-export const UPSELL_1_CHECKOUT_URL = withUpsellParam("https://go.centerpag.com/SEU_LINK_UPSELL_1");
+export const UPSELL_1_CHECKOUT_URL = withUpsellParam("https://go.centerpag.com/PPU38CQ8T4P");
 
 /** Link de checkout do 2º upsell (One Click). Use em /ready. Cole aqui o link que a Perfect Pay gera. */
 export const UPSELL_2_CHECKOUT_URL = withUpsellParam("https://go.centerpag.com/SEU_LINK_UPSELL_2");
