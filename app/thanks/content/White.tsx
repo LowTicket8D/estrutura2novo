@@ -54,7 +54,7 @@ export default function White() {
               If you have any questions or difficulties accessing, <u className="text-green-400">send an email to our support</u>:
             </p>
             <p>
-              — <strong className="text-green-400 hover:underline"><Link href="mailto:faceless.support@gmail.com">support-</Link></strong>
+              — <strong className="text-green-400 hover:underline"><Link href="mailto:faceless.support@gmail.com">faceless.support@gmail.com</Link></strong>
             </p>
             <p>We will respond immediately and help you with everything you need.</p>
             <p className="text-white">A strong hug, see you on the platform to start studying!</p>
