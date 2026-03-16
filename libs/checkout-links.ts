@@ -7,7 +7,7 @@
  */
 
 /** Checkout do produto principal (já em uso no projeto) */
-export const MAIN_CHECKOUT_URL = "https://go.centerpag.com/PPU38CQ8LDF";
+export const MAIN_CHECKOUT_URL = "https://go.centerpag.com/PPU38CQ8T2G";
 
 /** Garante que o link de upsell tenha o parâmetro que a Perfect Pay exige */
 function withUpsellParam(url: string) {

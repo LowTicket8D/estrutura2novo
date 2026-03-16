@@ -19,7 +19,7 @@ export default function Page() {
   const VSL = VSLBlackNew;
   const videoId = "69ad86e001dc41aee190f3c1";
   const backLink = `https://${host}/promo`;
-  const checkoutLink = "https://https://go.centerpag.com/PPU38CQ8LDF";
+  const checkoutLink = "https://go.centerpag.com/PPU38CQ8T2G";
   const pitchTime = 720;
 
   // VIDEO VERIFY

@@ -20,7 +20,7 @@ import {
 import Link from "next/link";
 import ConfettiEffect from "@/components/confetti";
 
-const CHECKOUT_URL = "https://go.centerpag.com/PPU38CQ8LDF";
+const CHECKOUT_URL = "https://go.centerpag.com/PPU38CQ8T2G";
 
 export default function AccessDenied() {
   const features = [
